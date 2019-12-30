@@ -1,0 +1,30 @@
+@import "./normalize.css";
+
+:root {
+    --color-text: #666;
+    --color-high-text: #ff5777;
+    --color-tint: #ff8198;
+    --color-background: #fff;
+    --font-size: 14px;
+    --line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: var(--color-text);
+}
+
+body {
+    user-select: none;
+    background: var(--color-background);
+    color: var(--color-text);
+    /*rem vw/vh*/
+    width: 100vw;
+}
